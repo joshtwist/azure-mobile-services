@@ -9,11 +9,10 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "iOS client SDK for Windows Azure Mobile Services."
   s.homepage     = "https://www.windowsazure.com/ios"
-  s.license      = { :type => 'Apache Licence, Version 2.0', :file => 'https://github.com/WindowsAzure/azure-mobile-services/blob/master/sdk/iOS/License.rtf' }
+  s.license      = { :type => 'Apache Licence, Version 2.0', :file => 'https://github.com/WindowsAzure/azure-mobile-services/blob/master/sdk/iOS/License.txt' }
   s.author       = { "Windows Azure Mobile Services" => "mobileservices@microsoft.com" }
   s.source       = { :git => "https://github.com/WindowsAzure/azure-mobile-services.git", :commit => "98945a95f416f75f9f16736221706e9f0ea877f9" }
   s.platform     = :ios, '5.0'
   s.source_files = 'sdk/iOS/src/*.{h,m}'
   s.requires_arc = true
-  s.licence      = { :type => 'MIT' }
 end
