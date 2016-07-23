@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.source_files = 'sdk/iOS/src/*.{h,m}'
   s.requires_arc = true
+  s.licence      = { :type => 'MIT' }
 end
